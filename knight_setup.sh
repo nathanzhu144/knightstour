@@ -11,6 +11,3 @@ git pull https://github.com/nathanzhu144/knightstour.git
 #makes the code
 make
 ./knightstour_main.exe
-
-rm knight_setup.sh
-
