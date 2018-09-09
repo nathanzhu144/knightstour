@@ -82,6 +82,7 @@ This is an example of what it will look like printed to terminal.
 
 In some cases, there is no solution to a knight's tour of the given board.  A word is warning is that the program will only print that there are no solutions after exhausting every possible orientation.  So, while for smaller boards, it will print that there is no solution, for larger boards, what may happen is that the program will take forever to finish running, given the exponential runtime of the program.
 
+
 ### File Mode
 
 <img src="photos/no_solution.png" alt="no solution">
