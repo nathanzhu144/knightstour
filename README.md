@@ -1,7 +1,9 @@
 # Knight's Tour
 
-This is a command-line interface program designed to find open Knight's tours on <br>
-various-sized chessboards.  A <a href="https://en.wikipedia.org/wiki/Knight%27s_tour ">Knight's Tour</a> is a special example of a Hamiltonian circuit. It is defined as the   
+## Introduction
+
+This is a command-line interface program designed to find open Knight's tours on <br> various-sized chessboards.  A <a href="https://en.wikipedia.org/wiki/Knight%27s_tour ">Knight's Tour</a> is a special example of a Hamiltonian path. It is defined as the problem of finding a sequence of moves of a knight on a chessboard so that the knight can visit every square of the chessboard only once.  If the knight ends on a square that is one knight's move from the starting square, then it is a closed circuit.  Otherwise, it is defined as an open circuit.  While the math proofs below are about closed circuits, this program endeavors to just find a circuit, and most of the time it returns an open circuit.
+
 
 <img src="photos/example_knights_tour.png" alt="Knight's Tour"> </img>
 
@@ -10,9 +12,10 @@ various-sized chessboards.  A <a href="https://en.wikipedia.org/wiki/Knight%27s_
 
 A naive implementation of this program doing a depth-first search without any heuristics will struggle with runtime issues,
 since the complexity of this program is exponential, with a runtime of O(k<sup>N</sup>), where N is the total number of
-squares in the chessboard itself and k is the average branching factor of the board.  Since the size of k represents the average branching factor of the board, it has to be a constant value between 0 and 8, as at most a knight at a given position can have 8 possible moves, and the least number of possible moves a knight can have at a given position is no possible moves. 
-of the board. 
+squares in the chessboard itself and k is the average branching factor of the board.  Since the size of k represents the average branching factor of the board, it has to be a constant value between 0 and 8, as at most a knight at a given position can have 8 possible moves, and the least number of possible moves a knight can have at a given position is no possible moves. It is sufficient to say that given the expoential nature of the problem, a brute force solution will not finish running in a reasonable amount of time for boards bigger than 10 by 10 boards.
 
+
+## 
 
 
 ```C++
@@ -31,6 +34,8 @@ int find_degree_of_node(int row, int col, int board[MAX_NUM_ROWS][MAX_NUM_COLS])
     return num_degrees;
 }
 ```
+
+## 
 
 This often finds the solution quickly, but in the case that there is not a k
 
