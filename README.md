@@ -30,4 +30,4 @@ This often finds the solution quickly, but in the case that there is not a k
 <img src="photos/cli_knights_tour_1.png" alt="Knight's Tour"> 
 
 <img src="photos/file_writing_example.png" alt="file writing example">
-<imt src="photos/no_solution.png" alt="no solution">
+<img src="photos/no_solution.png" alt="no solution">
