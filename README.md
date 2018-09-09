@@ -78,13 +78,13 @@ This is an example of what it will look like printed to terminal.
 
 <img src="photos/cli_knights_tour_1.png" alt="Knight's Tour"> 
 <br>
-<br> 
 In some cases, there is no solution to a knight's tour of the given board.  A word is warning is that the program will only print that there are no solutions after exhausting every possible orientation.  So, while for smaller boards, it will print that there is no solution, for larger boards, what may happen is that the program will take forever to finish running, given the exponential runtime of the program.
 
 <img src="photos/no_solution.png" alt="no solution">
 <br>
 
 There is the functionality of printing the boards to a file.  This can be chosen with menu option #2.
+<br>
 <br>
 <img src="photos/file_writing_example.png" alt="file writing example">
 <br>
