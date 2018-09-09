@@ -1,5 +1,5 @@
 # Knight's Tour
-Created by <b>Nathan Zhu </b>
+Created by <b>Nathan Zhu </b>.
 
 ## Introduction
 
@@ -11,14 +11,17 @@ to non-rectangular boards.  However, this program only handles rectangular board
 
 <img src="photos/example_knights_tour.png" alt="Knight's Tour"> </img>
 
-## Setting Up
+## Setting Up & Running
 
-The setting up is surprisingly simple.  
+The setting up is surprisingly simple.  Open terminal and type in both commands (without the $).  This should successfully
+set up the project.
 
 ```
-$  curl -OL https://github.com/nathanzhu144/knightstour/knight_setup.sh
+$  curl -OL https://github.com/nathanzhu144/knightstour/raw/master/knight_setup.sh
 $  bash knight_setup.sh
 ```
+
+
 ## Time Complexity Analysis
 
 This program is a modified brute-force algorithm.  The brute-force algorithm uses 
