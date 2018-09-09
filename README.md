@@ -35,7 +35,7 @@ $  bash knight_run.sh
 
 ## Time Complexity Analysis
 
-This program is a modified brute-force algorithm.  The brute-force algorithm uses 
+This program is a modified brute-force algorithm.  The brute-force algorithm tries out all possible moves a knight can make until it finds a tour and backtracks if it finds that a tour cannot be made with that move.
 
 A naive implementation of this program doing a depth-first search without any heuristics will struggle with runtime issues,
 since the complexity of this program is exponential, with a runtime of O(k<sup>N</sup>), where N is the total number of
@@ -68,8 +68,7 @@ In practice, this heuristic reduces runtimes from not being able to compute a 8 
 
 However, as this program uses stack frames for backtracking, it crashes on large enough inputs due to the stack running out of space.   
 
-
-
+<br>
 
 ## Functionality
 
