@@ -6,6 +6,13 @@ various-sized chessboards.  A <a href="https://en.wikipedia.org/wiki/Knight%27s_
 <img src="photos/example_knights_tour.png" alt="Knight's Tour"> </img>
 
 
+## Time Complexity Analysis
+
+A naive implementation of this program doing a depth-first search without any heuristics will struggle with runtime issues,
+since the complexity of this program is exponential, with a runtime of O(k<sup>N</sup>), where N is the total number of
+squares in the chessboard itself and k is the average branching factor of the board.  Since the size of k represents the average branching factor of the board, it has to be a constant value between 0 and 8, as at most a knight at a given position can have 8 possible moves, and the least number of possible moves a knight can have at a given position is no possible moves. 
+of the board. 
+
 
 
 ```C++
