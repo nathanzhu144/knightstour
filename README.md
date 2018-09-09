@@ -72,15 +72,25 @@ However, as this program uses stack frames for backtracking, it crashes on large
 
 ## Functionality
 
-This often finds the solution quickly, but in the case that there is not a k
+This is a terminal program, but it can not only print out knight tours in the terminal, it can also write them to the file for later use.  
+
+This is an example of what it will look like printed to terminal.
 
 <img src="photos/cli_knights_tour_1.png" alt="Knight's Tour"> 
+<br>
+<br> 
+
+In some cases, there is no solution to a knight's tour of the given board.  A word is warning is that the program will only print that there are no solutions after exhausting every possible orientation.  So, while for smaller boards, it will print that there is no solution, for larger boards, what may happen is that the program will take forever to finish running, given the exponential runtime of the program.
+
+<img src="photos/no_solution.png" alt="no solution">
+<br>
+
+There is the functionality of printing the boards to a file.  This can be chosen with menu option #2.
+<img src="photos/file_writing_example.png" alt="file writing example">
+<br>
+<br>
 
 ## Sources
-http://interactivepython.org/runestone/static/pythonds/Graphs/KnightsTourAnalysis.html
-http://math.oregonstate.edu/~math_reu/proceedings/REU_Proceedings/Proceedings2002/2002AL_McGown.pdf
-https://pdfs.semanticscholar.org/c3f5/e69e771771de1be50a8a8bf2561804026d69.pdf
-
-
-<img src="photos/file_writing_example.png" alt="file writing example">
-<img src="photos/no_solution.png" alt="no solution">
+http://interactivepython.org/runestone/static/pythonds/Graphs/KnightsTourAnalysis.html <br>
+http://math.oregonstate.edu/~math_reu/proceedings/REU_Proceedings/Proceedings2002/2002AL_McGown.pdf <br>
+https://pdfs.semanticscholar.org/c3f5/e69e771771de1be50a8a8bf2561804026d69.pdf <br>
