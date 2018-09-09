@@ -1,5 +1,5 @@
 # Knight's Tour
-Created by <b>Nathan Zhu </b>.
+Created by <b>Nathan Zhu</b>.
 
 ## Introduction
 
@@ -13,12 +13,21 @@ to non-rectangular boards.  However, this program only handles rectangular board
 
 ## Setting Up & Running
 
-The setting up is surprisingly simple.  Open terminal and type in both commands (without the $).  This should successfully
-set up the project.
+### Setup
+The setting up is straightforwrad.  Open terminal and type in both commands (without the $).  This should successfully
+set up the project.  This should should create a new directory called knightstour.  To then run the program, navigate to
+the directory and follow the directions below to run the program.
 
 ```
 $  curl -OL https://github.com/nathanzhu144/knightstour/raw/master/knight_setup.sh
 $  bash knight_setup.sh
+```
+
+### Running the Program
+To run this program, just run the following command.  Again, omit the $.  This should run the program.  If you have an error
+saying that the file does not exist check to make sure that you are currently in the knightstour directory.
+```
+$  bash knight_run.sh
 ```
 
 
@@ -59,6 +68,12 @@ However, as this program uses stack frames for backtracking, it crashes on large
 This often finds the solution quickly, but in the case that there is not a k
 
 <img src="photos/cli_knights_tour_1.png" alt="Knight's Tour"> 
+
+## Sources
+http://interactivepython.org/runestone/static/pythonds/Graphs/KnightsTourAnalysis.html
+http://math.oregonstate.edu/~math_reu/proceedings/REU_Proceedings/Proceedings2002/2002AL_McGown.pdf
+https://pdfs.semanticscholar.org/c3f5/e69e771771de1be50a8a8bf2561804026d69.pdf
+
 
 <img src="photos/file_writing_example.png" alt="file writing example">
 <img src="photos/no_solution.png" alt="no solution">
