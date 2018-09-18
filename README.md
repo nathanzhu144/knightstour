@@ -15,7 +15,7 @@ to non-rectangular boards.  However, this program only handles rectangular board
 ## Setting Up & Running
 
 ### Setup
-The setting up is straightforwrad.  Open terminal and type in both commands (without the $).  This should successfully
+The setting up is straightforward.  Open terminal and type in both commands (without the $).  This should successfully
 set up the project.  This should should create a new directory called knightstour.  To then run the program, navigate to
 the directory and follow the directions below to run the program.
 
